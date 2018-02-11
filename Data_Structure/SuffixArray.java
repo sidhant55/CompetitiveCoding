@@ -1,8 +1,4 @@
 package Data_Structure;
-
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
-import javax.security.auth.login.AccountExpiredException;
 import java.util.*;
 class suffix
 {
@@ -87,7 +83,7 @@ public class SuffixArray {
         System.out.println("Not Found");
     }
     public static void main(String args[]) {
-        String x="abcdefgefgxyz";
+        String x="zbcdefgefgxyz";
         int l=x.length();
         int arr[]=builArr(x,l);
         for (int i=0;i<l;i++)
