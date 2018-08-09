@@ -2,7 +2,7 @@ package Rough;
 
 import java.util.*;
 
-public class Exception {
+public class Exception extends Throwable {
     public static void main(String args[]) {
 
         int a=0;
